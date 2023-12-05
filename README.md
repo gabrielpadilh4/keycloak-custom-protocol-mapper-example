@@ -22,7 +22,9 @@ To use this custom protocol mapper in your Keycloak instance, follow these steps
    mvn clean install
    ```
 3. **Copy the artifact to providers directory on Keycloak**
-
+   ```bash
+   cp target/keycloak-custom-protocol-mapper-example-1.0-SNAPSHOT.jar $KEYCLOAK_HOME/providers
+   ```
 4. **Build keycloak to use the provider**
    ```bash
    ./kc.sh build
