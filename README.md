@@ -34,7 +34,8 @@ My users has an attribute named **my-custom-attribute**. This attribute follows 
 
 My logic here is, if the the user has the KEY:VALUE equals to **##ABC:DEF##**, i fill the claim **groupAttribute** with this value, otherwise, the claim **groupAttribute** is empty.
 
-Example o the access token:
+See the example below of an access token generated where the user has the value **##123:456####ABC:DEF##** on **my-custom-attribute**:
+
 ```json
 {
   "exp": 1701739507,
